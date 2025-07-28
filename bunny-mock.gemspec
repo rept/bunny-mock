@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version     = BunnyMock::VERSION.dup
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Andrew Rempe']
-  s.email       = ["616e6472657772656d706540676d61696c2e636f6d"].pack("H*")]
+  s.email       = [["616e6472657772656d706540676d61696c2e636f6d"].pack("H*")]
   s.summary     = 'Mocking for the popular Bunny client for RabbitMQ'
   s.description = 'Easy to use mocking for testing the Bunny client for RabbitMQ'
   s.license     = 'MIT'
